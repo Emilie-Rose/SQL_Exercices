@@ -8,7 +8,7 @@ USE webDevelopment;
 id (type INT, auto-incrémenté, clé primaire) --language (type VARCHAR)
 CREATE TABLE 'languages'(
 --id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
---languages VARCHAR(50);
+--language VARCHAR(50);
 
 # Exercice 02:
 ## Dans la base de données webDevelopment, créer la table tools avec les colonnes suivantes: 
@@ -17,7 +17,6 @@ CREATE TABLE 'languages'(
 
 SHOW DATABASES;
 USE webDevelopment;
-id (type INT, auto-incrémenté, clé primaire) --tool (type VARCHAR)
 CREATE TABLE 'tools'(
 --id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 --tool VARCHAR(50));
@@ -40,7 +39,6 @@ CREATE TABLE 'frameworks'(
 
 SHOW DATABASES;
 USE webDevelopment;
---id (type INT, auto-incrémenté, clé primaire) --librairy (type VARCHAR)
 CREATE TABLE 'librairies'(
 --id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 --librairy VARCHAR(50)
